@@ -1,0 +1,51 @@
+/*.xanh-mono-regular {
+  font-family: "Xanh Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.xanh-mono-regular-italic {
+  font-family: "Xanh Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}*/
+
+* {
+    --base: #FFFFFF;
+    --background-color:black;
+    --accent-color: white;
+    font-family:"Xanh Mono", monospace;
+}
+
+body {
+  padding-left: 36px;
+  padding-right: 36px;
+  color: var(--background-color);
+ 
+}
+
+header {
+  
+  padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+    font-family: "Xanh Mono", monospace;
+    color: var(--accent-color);
+    font-size: 32px;
+    font-weight: 700;
+
+  }
+
+  .cards {
+     background-color: var(--accent-color);
+    padding: 16px;
+    
+    border-radius: 4px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+  }
+
+  
+
